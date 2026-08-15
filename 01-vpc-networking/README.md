@@ -6,15 +6,16 @@ Create a production-ready VPC from scratch with public and private subnets, inte
 
 ## Architecture Diagram
 
-![VPC Networking](assets/vpc_networking.png)
+![VPC Networking](../assets/vpc_networking.png)
 
 
-Route Table (Public)
+#### Route Table (Public)
 | Source  | Destination |
 |---------|-------|
 | 10.0.0.0/16 | local |
 | 0.0.0.0/0 | IGW |
-Route Table (Private)
+
+#### Route Table (Private)
 | Source  | Destination |
 |---------|-------|
 | 10.0.0.0/16 | local |
