@@ -33,7 +33,7 @@ data "terraform_remote_state" "vpc" {
   backend = "s3"
   config = {
     bucket = "aws-lab-tfstate-${data.aws_caller_identity.current.account_id}"
-    key    = "labs/01-vpc-networking/terraform.tfstate"
+    key    = "lab-01-vpc-networking/terraform.tfstate"
     region = var.region
   }
 }
@@ -415,7 +415,7 @@ resource "aws_rds_cluster" "aurora" {
   cluster_identifier = "${local.name_prefix}-aurora"
   engine             = "aurora-postgresql"
   engine_mode        = "provisioned"
-  engine_version     = "15.4"
+  engine_version     = "15.18"
   database_name      = var.db_name
   master_username    = "dbadmin"
   master_password    = "ChangeMe123!" # NOTE: In production, use Secrets Manager
