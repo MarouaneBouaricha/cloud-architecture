@@ -6,7 +6,7 @@ Deploy a web server with high availability using an Application Load Balancer (A
 
 ## Architecture
 
-![Web-Server](assets/web-server.png)
+![Web-Server](../assets/web-server.png)
 
 ## Prerequisites
 
