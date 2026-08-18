@@ -18,7 +18,7 @@ Getting started
 
 Prerequisites
 
-- Install Terraform (recommended >= 1.0): https://www.terraform.io/
+- Install Terraform (recommended >= 1.0)
 - Configure AWS credentials (`aws configure` or environment variables) with an account that can create resources.
 - Install the AWS CLI for convenience (optional).
 
