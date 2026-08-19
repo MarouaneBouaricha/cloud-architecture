@@ -1,5 +1,10 @@
 # Cloud Architecture — AWS Labs Portfolio
 
+![Terraform](https://img.shields.io/badge/Terraform-1.0%2B-623CE4?logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Architecture-FF9900?logo=amazonaws&logoColor=white)
+![Portfolio](https://img.shields.io/badge/Portfolio-Hands%20on%20Labs-2E8555)
+![Status](https://img.shields.io/badge/Status-Learning%20Portfolio-blue)
+
 This repository is a curated portfolio of hands-on AWS architecture labs implemented with Terraform. It's organized as individual labs (modules) that demonstrate practical patterns used in production: networking, high-availability, serverless, containers, event-driven systems, and more. 
 
 **Repository layout**
